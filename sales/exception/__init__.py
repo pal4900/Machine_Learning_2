@@ -26,7 +26,7 @@ class SalesException(Exception):
     
 
     def __repr__(self) -> str:
-        return HousingException.__name__.str()
+        return SalesException.__name__.str()
     
 
 
